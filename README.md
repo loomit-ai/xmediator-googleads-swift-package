@@ -18,7 +18,7 @@ To integrate `XMediatorGoogleAds` into your Xcode project using Swift Package Ma
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-googleads-swift-package", exact: "13.10.000")
+    .package(url: "https://github.com/x3mads/xmediator-googleads-swift-package", exact: "13.11.000")
 ]
 ```
 
