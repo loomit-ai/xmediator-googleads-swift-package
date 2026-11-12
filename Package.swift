@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorGoogleAds", targets: ["XMediatorGoogleAdsTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.11.0"),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.12.0"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.164.0")),
     ],
     targets: [
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorGoogleAds",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorGoogleAds/XMediatorGoogleAds-13.11.0.0.zip",
-            checksum: "aada99f21d67ebf3e8836b02b91ddb124e83efed3ebd7dcd17f309e99e11ac2f"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorGoogleAds/XMediatorGoogleAds-13.12.0.0.zip",
+            checksum: "1c1d0fa525ff942f0f8c443f3df5beff403b972b72cbda29c9dbc019a201cb2a"
         ),
     ]
 )
